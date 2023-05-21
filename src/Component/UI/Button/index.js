@@ -5,7 +5,7 @@ const FlatButton = ({ variant, name, size, icon }) => {
     <>
       <Button variant={variant} size={size}>
         {name}
-        <span className="mx-2">{icon}</span>
+        {icon && <span className="mx-2">{icon}</span>}
       </Button>
     </>
   );

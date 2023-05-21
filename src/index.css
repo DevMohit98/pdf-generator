@@ -1,9 +1,23 @@
 :root {
-  ---primary-color: #3944bc;
-  ---text-color: #3944bc;
+  ---primary-color: #e91e63;
+  ---text-color: #e91e63;
+  ---body-bg-color: #fafafa;
+  ---heading-color: #e91e63;
+}
+body {
+  background-color: var(---body-bg-color) !important;
 }
 .poppins {
   font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(---text-color);
+}
+.heading {
+  color: var(---heading-color);
 }
 .form-control:focus {
   border-color: var(---primary-color) !important;
@@ -15,4 +29,6 @@
 }
 .btn-primary {
   background-color: var(---primary-color) !important;
+  border-color: var(---primary-color) !important;
+  font-size: 1.4rem;
 }
