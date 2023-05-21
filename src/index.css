@@ -1,0 +1,18 @@
+:root {
+  ---primary-color: #3944bc;
+  ---text-color: #3944bc;
+}
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.form-control:focus {
+  border-color: var(---primary-color) !important;
+  box-shadow: none !important;
+}
+
+.form-floating > label {
+  color: var(---text-color);
+}
+.btn-primary {
+  background-color: var(---primary-color) !important;
+}
